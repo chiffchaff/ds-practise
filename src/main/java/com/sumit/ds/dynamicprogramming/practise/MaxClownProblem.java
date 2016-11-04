@@ -29,7 +29,7 @@ public class MaxClownProblem {
         Pair pair = new Pair(-1,1);
         int maxCount = -1;
         for(Person p: persons){
-            List <Person> eligible = new ArrayList<>();
+            List <Person> eligible = new ArrayList();
             for(int i = 0; i < persons.size(); i++) {
                 if (isEligible(p, persons.get(i))){
                     eligible.add(persons.get(i));

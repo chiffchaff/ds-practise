@@ -1,6 +1,13 @@
 package com.sumit.ds.recursion.practise;
 
+/**
+ * Apply recursion for printing numbers in sequencial order
+ */
 public class PrintForLoop {
+	/**
+	 * Print Numbers in ascending order and then descending order
+	 * @param n
+	 */
 	public void printNIntegers(int n){
 		if(n == 0)
 			return;

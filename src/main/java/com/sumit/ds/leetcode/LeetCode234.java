@@ -19,7 +19,7 @@ public class LeetCode234 {
 		boolean result = false;
 		if(head == null || (head !=null && head.next == null)) return true;
 		StringBuilder sb = new StringBuilder();
-		Stack<Character> stack = new Stack<>();
+		Stack<Character> stack = new Stack();
 
 			ListNode tmp = head;
 			while(tmp != null){

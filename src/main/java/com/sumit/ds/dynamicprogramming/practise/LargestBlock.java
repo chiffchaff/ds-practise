@@ -18,7 +18,7 @@ public class LargestBlock {
         int findex = 0;
         char tmp = input.charAt(0);
         int count = 1;
-        Map<Character,Counter> charOccurances = new HashMap<>();
+        Map<Character,Counter> charOccurances = new HashMap();
         for(int i=1;i<input.length();i++){
             if(input.charAt(i) != tmp){
                 updateMap(tmp, charOccurances, findex,count);
@@ -84,6 +84,6 @@ public class LargestBlock {
 
     public static void main(String args[]){
         LargestBlock lb = new LargestBlock();
-        System.out.println(lb.getLargestBlock(""));
+        System.out.println(lb.getLargestBlock("aaabbbbccdccc"));
     }
 }
