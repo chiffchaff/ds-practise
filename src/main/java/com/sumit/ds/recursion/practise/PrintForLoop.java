@@ -2,6 +2,7 @@ package com.sumit.ds.recursion.practise;
 
 /**
  * Apply recursion for printing numbers in sequencial order
+ * Using callStack to print the numbers in ascending and descending order
  */
 public class PrintForLoop {
 	/**
@@ -18,6 +19,6 @@ public class PrintForLoop {
 	
 	public static void main(String[] args) {
 		PrintForLoop pl = new PrintForLoop();
-		pl.printNIntegers(1);
+		pl.printNIntegers(5);
 	}
 }

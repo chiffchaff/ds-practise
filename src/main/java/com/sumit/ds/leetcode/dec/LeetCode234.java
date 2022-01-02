@@ -1,4 +1,4 @@
-package com.sumit.ds.leetcode;
+package com.sumit.ds.leetcode.dec;
 
 import java.util.Stack;
 
