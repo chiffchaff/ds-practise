@@ -20,7 +20,7 @@ public class factorial {
 
     @Test
     public void test(){
-        int input=5;
+        int input=6;
         System.out.println(factR(input));
         System.out.println(fact(input));
     }
