@@ -1,4 +1,4 @@
-package com.sumit.ds.leetcode.jan.one;
+package com.sumit.ds.leetcode.twentytwentyone.jan.one;
 
 /**
  * Pascal's Triangle

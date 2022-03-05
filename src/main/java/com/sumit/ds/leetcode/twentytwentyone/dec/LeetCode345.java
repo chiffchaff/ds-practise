@@ -1,4 +1,4 @@
-package com.sumit.ds.leetcode.dec;
+package com.sumit.ds.leetcode.twentytwentyone.dec;
 
 import java.util.Arrays;
 import java.util.List;

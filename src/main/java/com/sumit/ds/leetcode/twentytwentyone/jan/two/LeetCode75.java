@@ -1,4 +1,4 @@
-package com.sumit.ds.leetcode.jan.two;
+package com.sumit.ds.leetcode.twentytwentyone.jan.two;
 
 import org.junit.Test;
 
