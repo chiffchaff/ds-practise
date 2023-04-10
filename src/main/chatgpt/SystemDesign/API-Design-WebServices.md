@@ -23,7 +23,7 @@ By following the CSP, an API can be more scalable and easier to maintain. For ex
 Overall, the single responsibility and concern separation principles are important in API design because they promote modularity, maintainability, and scalability. By keeping these principles in mind, developers can create APIs that are easy to use and evolve over time.
 
 > Best Practices for Rest API Design
-
+![img.png](img.png)
 ```plantuml
 @startmindmap
 * REST APIs Best Practices

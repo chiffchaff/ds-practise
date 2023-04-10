@@ -14,4 +14,26 @@
 | Tooling | GraphQL has extensive tooling support for client and server development | REST API has limited tooling support compared to GraphQL |
 
 
+> What is a Charter, and Why is it Important?
 
+According to S&P Global, only four new banking charters were approved in 2022. It often takes a company three to five years to go through the intense chartering process.¹
+
+> What are Neo Banks ?
+
+They are a high-growth part of the fintech space and look the most like traditional and digital banks when compared to other fintechs.
+
+Most neobanks differ from traditional and digital banks in a few key ways:
+
+Neobanks don’t have a bank charter
+
+They partner with chartered banks to provide services
+
+They aren’t directly regulated and audited by banking examiners
+
+![img.png](img.png)
+
+> E-Payment (Card Payment)
+![img_1.png](img_1.png)
+
+> Settlement & Clearing Phase
+![img_2.png](img_2.png)
