@@ -174,3 +174,21 @@ This architecture consists of the following components:
 
 To handle high volumes of transactions, the system can have multiple instances of the application server and payment gateway running in parallel, with each instance capable of processing a subset of the total load. The load balancer can distribute incoming requests evenly across the available instances, and new instances can be added dynamically to handle spikes in traffic. The payment gateway can also use caching and other optimization techniques to minimize the processing time for each transaction.
 In addition, the system can employ various security measures to ensure the safety of transactions and user data, such as SSL/TLS encryption, two-factor authentication, and fraud detection algorithms. The transaction log can be replicated across multiple data centers to ensure data redundancy and disaster recovery.
+
+> How does VISA make money ?
+
+The diagram below shows the economics of the credit card payment flow.
+
+1. The cardholder pays a merchant $100 to buy a product.
+
+2. The merchant benefits from the use of the credit card with higher sales volume, and needs to compensate the issuer and the card network for providing the payment service. The acquiring bank sets a fee with the merchant, called the “merchant discount fee”
+
+3 - 4. The acquiring bank keeps $0.25 as the acquiring markup, and $1.75 is paid to the issuing bank as the interchange fee. The merchant discount fee should cover the interchange fee.
+
+The interchange fee is set by the card network because it is less efficient for each issuing bank to negotiate fees with each merchant.
+
+5. The card network sets up the network assessments and fees with each bank, which pays the card network for its services every month. For example, VISA charges a 0.11% assessment, plus a $0.0195 usage fee, for every swipe.
+
+6. The cardholder pays the issuing bank for its services.
+
+![Visa-Make-Money](https://media.licdn.com/dms/image/D4E22AQE3lzfv7Dlc1Q/feedshare-shrink_800/0/1680848127757?e=1683763200&v=beta&t=YTzT7MdBbuhfbCJWCrDF1uQkLCwcmRG5GytcrCDL6RI)

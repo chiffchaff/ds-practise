@@ -79,14 +79,29 @@ APY = (1 + r/n)n – 1
 
 > how does  Mastercard/Visa authorization settlements work
 
-Mastercard/Visa authorization settlements are the processes involved in processing electronic transactions made using Mastercard or Visa credit/debit cards. The process can be divided into three stages: authorization, clearing, and settlement.
+Mastercard/Visa authorization settlements are the processes involved in processing electronic transactions made using Mastercard or Visa credit/debit cards. 
+- The process can be divided into three stages: 
+  - authorization, 
+  - clearing, and 
+  - settlement.
 
 1. Authorization:
-   During this stage, the cardholder initiates a transaction by presenting their card to the merchant. The merchant then sends an authorization request to the acquiring bank (the bank that processes payments for the merchant). The acquiring bank sends the authorization request to the cardholder's issuing bank (the bank that issued the card to the cardholder) to check whether the cardholder has sufficient funds or credit to complete the transaction. The issuing bank then approves or declines the transaction and sends a response to the acquiring bank. The acquiring bank then sends the response to the merchant, who can either complete or decline the transaction.
+   During this stage, 
+   - the cardholder initiates a transaction by presenting their card to the merchant. 
+   - The merchant then sends an authorization request to the acquiring bank (the bank that processes payments for the merchant). 
+   - The acquiring bank sends the authorization request to the cardholder's issuing bank (the bank that issued the card to the cardholder) to check whether the cardholder has sufficient funds or credit to complete the transaction. 
+   - The issuing bank then approves or declines the transaction and sends a response to the acquiring bank. 
+   - The acquiring bank then sends the response to the merchant, who can either complete or decline the transaction.
+   
 2. Clearing:
-   During this stage, the merchant submits all approved transactions to their acquiring bank. The acquiring bank then sends the transactions to the card associations (e.g., Mastercard or Visa) for processing. The card associations verify the transactions and transfer the funds to the issuing banks.
+   During this stage, 
+   - the merchant submits all approved transactions to their acquiring bank. 
+   - The acquiring bank then sends the transactions to the card associations (e.g., Mastercard or Visa) for processing. 
+   - The card associations verify the transactions and transfer the funds to the issuing banks.
 3. Settlement:
-   During this stage, the issuing banks transfer the funds to the acquiring banks, which then deposit the funds into the merchant's account. Settlement usually occurs within a few days after the transaction is completed.
+   During this stage, 
+   - the issuing banks transfer the funds to the acquiring banks, which then deposit the funds into the merchant's account. 
+   - Settlement usually occurs within a few days after the transaction is completed.
 
 The process is repeated for every transaction made using a Mastercard or Visa credit/debit card. The fees associated with the process (e.g., interchange fees) are typically paid by the merchant to the acquiring bank, which then pays the card associations and issuing banks.
 
