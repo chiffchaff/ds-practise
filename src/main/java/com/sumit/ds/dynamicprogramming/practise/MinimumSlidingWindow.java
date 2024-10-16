@@ -13,6 +13,7 @@ import java.util.stream.Stream;
  */
 public class MinimumSlidingWindow {
 
+    /**
     @Test
     public String minSlidingWindow(String input,String pattern){
         String result = "";
@@ -43,6 +44,7 @@ public class MinimumSlidingWindow {
         return result;
 
     }
+    **/
 
     private int findMin(int start, int end) {
         return -1;
