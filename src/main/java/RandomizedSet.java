@@ -18,7 +18,7 @@ public class RandomizedSet {
     public boolean insert(int val) {
         boolean result = false;
         if(!integerMap.containsKey(val)){
-            int index = integerList.size();
+            int index = counter++;
             integerList.add(index,val);
             integerMap.put(val,index);
             result = true;
@@ -33,6 +33,7 @@ public class RandomizedSet {
             integerList.remove(index);
             integerMap.remove(val);
             result = true;
+            counter--;
         }
         return result;
     }

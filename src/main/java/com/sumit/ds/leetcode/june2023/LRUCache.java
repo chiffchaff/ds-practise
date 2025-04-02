@@ -60,8 +60,8 @@ class LRUCache{
         User user = null;
         if(cache.containsKey(id)){
             Node node = cache.get(id);
-            node.timestamp = System.currentTimeMillis();
             pq.remove(node);
+            node.timestamp = System.currentTimeMillis();
             pq.offer(node);
             user = node.getUser();
         }

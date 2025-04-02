@@ -1,1 +1,0 @@
-[Building Icons / Icon Sets with ChatGPT](https://aruva.medium.com/building-icon-sets-with-chatgpt-df327c60e4be)
