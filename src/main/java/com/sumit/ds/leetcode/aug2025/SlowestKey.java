@@ -3,6 +3,9 @@ package com.sumit.ds.leetcode.aug2025;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * https://leetcode.com/problems/slowest-key/
+ */
 public class SlowestKey {
     public char slowestKey(int[] releaseTimes, String keysPressed) {
         int res[] = new int[2];
