@@ -1,1 +1,15 @@
 /target/
+.idea/
+.idea/compiler.xml
+.idea/dbnavigator.xml
+.idea/jarRepositories.xml
+.idea/vcs.xml
+.classpath
+.idea/copyright/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+.project
+src/main/main.iml
+
